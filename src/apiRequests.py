@@ -7,7 +7,7 @@ from dotenv import load_dotenv, find_dotenv
 # which contains one line of text with the following format
 # API_KEY = "110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw"
 load_dotenv(find_dotenv())
-API_KEY = os.environ.get("API_KEY")
+API_KEY = os.environ.get("7630353753:AAH0LsaNIyo9zaecHuwM0WTXM7j200KMi-s")
 
 # Function that sends the groupMessage through our bot to all the telegram group chats.
 def sendGroupMessage(groupChats, groupMessage):
